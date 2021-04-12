@@ -5,8 +5,8 @@ const pass = 'estebanrojo09'
 // const pass = 'Elcieto21*'
 const dbname = 'el-cielo-db'
 // const url = `mongodb+srv://admin:${pass}@cluster0.44hll.mongodb.net/${dbname}?retryWrites=true&w=majority` // no personal
-// const url = `mongodb+srv://admin:${pass}@cluster0.j6cyo.mongodb.net/${dbname}?retryWrites=true&w=majority` // personal
-const url = 'mongodb://localhost:27017/el-cielo-db' // local dev
+const url = `mongodb+srv://admin:${pass}@cluster0.j6cyo.mongodb.net/${dbname}?retryWrites=true&w=majority` // personal
+// const url = 'mongodb://localhost:27017/el-cielo-db' // local dev
 
 
 const connet = async () => {
